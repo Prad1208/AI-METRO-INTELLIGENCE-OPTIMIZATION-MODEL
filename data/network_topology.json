@@ -1,0 +1,466 @@
+{
+  "stations": {
+    "Central Hub": {
+      "x": 50.0,
+      "y": 50.0,
+      "lines": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ],
+      "capacity": 6000,
+      "is_interchange": true
+    },
+    "Financial District": {
+      "x": 50.0,
+      "y": 62.0,
+      "lines": [
+        "Red"
+      ],
+      "capacity": 4500,
+      "is_interchange": false
+    },
+    "Civic Plaza": {
+      "x": 50.0,
+      "y": 74.0,
+      "lines": [
+        "Red"
+      ],
+      "capacity": 3800,
+      "is_interchange": false
+    },
+    "North Suburbs": {
+      "x": 50.0,
+      "y": 88.0,
+      "lines": [
+        "Red",
+        "Green"
+      ],
+      "capacity": 4200,
+      "is_interchange": true
+    },
+    "Old Town": {
+      "x": 50.0,
+      "y": 38.0,
+      "lines": [
+        "Red"
+      ],
+      "capacity": 3500,
+      "is_interchange": false
+    },
+    "Tech Park": {
+      "x": 50.0,
+      "y": 24.0,
+      "lines": [
+        "Red",
+        "Green"
+      ],
+      "capacity": 5500,
+      "is_interchange": true
+    },
+    "South Terminal": {
+      "x": 50.0,
+      "y": 10.0,
+      "lines": [
+        "Red"
+      ],
+      "capacity": 3000,
+      "is_interchange": false
+    },
+    "West Harbor": {
+      "x": 14.0,
+      "y": 50.0,
+      "lines": [
+        "Blue",
+        "Green"
+      ],
+      "capacity": 4000,
+      "is_interchange": true
+    },
+    "Maritime Way": {
+      "x": 26.0,
+      "y": 50.0,
+      "lines": [
+        "Blue"
+      ],
+      "capacity": 3200,
+      "is_interchange": false
+    },
+    "Arts District": {
+      "x": 38.0,
+      "y": 50.0,
+      "lines": [
+        "Blue"
+      ],
+      "capacity": 3700,
+      "is_interchange": false
+    },
+    "Commerce Blvd": {
+      "x": 64.0,
+      "y": 50.0,
+      "lines": [
+        "Blue"
+      ],
+      "capacity": 3900,
+      "is_interchange": false
+    },
+    "East University": {
+      "x": 78.0,
+      "y": 50.0,
+      "lines": [
+        "Blue",
+        "Green"
+      ],
+      "capacity": 5200,
+      "is_interchange": true
+    },
+    "Airport East": {
+      "x": 92.0,
+      "y": 50.0,
+      "lines": [
+        "Blue",
+        "Yellow"
+      ],
+      "capacity": 5000,
+      "is_interchange": true
+    },
+    "North Innovation": {
+      "x": 68.0,
+      "y": 76.0,
+      "lines": [
+        "Green"
+      ],
+      "capacity": 3200,
+      "is_interchange": false
+    },
+    "Botanical Gardens": {
+      "x": 78.0,
+      "y": 66.0,
+      "lines": [
+        "Green"
+      ],
+      "capacity": 2800,
+      "is_interchange": false
+    },
+    "South Medical Center": {
+      "x": 72.0,
+      "y": 32.0,
+      "lines": [
+        "Green"
+      ],
+      "capacity": 3400,
+      "is_interchange": false
+    },
+    "Lakeside East": {
+      "x": 62.0,
+      "y": 24.0,
+      "lines": [
+        "Green"
+      ],
+      "capacity": 3100,
+      "is_interchange": false
+    },
+    "Green Hills West": {
+      "x": 32.0,
+      "y": 24.0,
+      "lines": [
+        "Green"
+      ],
+      "capacity": 2900,
+      "is_interchange": false
+    },
+    "University West": {
+      "x": 22.0,
+      "y": 36.0,
+      "lines": [
+        "Green"
+      ],
+      "capacity": 3600,
+      "is_interchange": false
+    },
+    "Northwest Gateway": {
+      "x": 28.0,
+      "y": 74.0,
+      "lines": [
+        "Green"
+      ],
+      "capacity": 3300,
+      "is_interchange": false
+    },
+    "Olympic Stadium": {
+      "x": 74.0,
+      "y": 58.0,
+      "lines": [
+        "Yellow"
+      ],
+      "capacity": 7000,
+      "is_interchange": false
+    }
+  },
+  "lines": {
+    "Red": [
+      "North Suburbs",
+      "Civic Plaza",
+      "Financial District",
+      "Central Hub",
+      "Old Town",
+      "Tech Park",
+      "South Terminal"
+    ],
+    "Blue": [
+      "West Harbor",
+      "Maritime Way",
+      "Arts District",
+      "Central Hub",
+      "Commerce Blvd",
+      "East University",
+      "Airport East"
+    ],
+    "Green": [
+      "North Suburbs",
+      "North Innovation",
+      "Botanical Gardens",
+      "East University",
+      "South Medical Center",
+      "Lakeside East",
+      "Tech Park",
+      "Green Hills West",
+      "University West",
+      "West Harbor",
+      "Northwest Gateway",
+      "North Suburbs"
+    ],
+    "Yellow": [
+      "Central Hub",
+      "Olympic Stadium",
+      "Airport East"
+    ]
+  },
+  "edges": [
+    {
+      "from": "Central Hub",
+      "to": "Financial District",
+      "distance_km": 3.0,
+      "base_time_min": 4.07,
+      "lines": [
+        "Red"
+      ]
+    },
+    {
+      "from": "Central Hub",
+      "to": "Old Town",
+      "distance_km": 3.0,
+      "base_time_min": 4.07,
+      "lines": [
+        "Red"
+      ]
+    },
+    {
+      "from": "Central Hub",
+      "to": "Arts District",
+      "distance_km": 3.0,
+      "base_time_min": 4.07,
+      "lines": [
+        "Blue"
+      ]
+    },
+    {
+      "from": "Central Hub",
+      "to": "Commerce Blvd",
+      "distance_km": 3.5,
+      "base_time_min": 4.62,
+      "lines": [
+        "Blue"
+      ]
+    },
+    {
+      "from": "Central Hub",
+      "to": "Olympic Stadium",
+      "distance_km": 6.324555320336759,
+      "base_time_min": 7.7,
+      "lines": [
+        "Yellow"
+      ]
+    },
+    {
+      "from": "Financial District",
+      "to": "Civic Plaza",
+      "distance_km": 3.0,
+      "base_time_min": 4.07,
+      "lines": [
+        "Red"
+      ]
+    },
+    {
+      "from": "Civic Plaza",
+      "to": "North Suburbs",
+      "distance_km": 3.5,
+      "base_time_min": 4.62,
+      "lines": [
+        "Red"
+      ]
+    },
+    {
+      "from": "North Suburbs",
+      "to": "North Innovation",
+      "distance_km": 5.408326913195984,
+      "base_time_min": 6.7,
+      "lines": [
+        "Green"
+      ]
+    },
+    {
+      "from": "North Suburbs",
+      "to": "Northwest Gateway",
+      "distance_km": 6.519202405202649,
+      "base_time_min": 7.91,
+      "lines": [
+        "Green"
+      ]
+    },
+    {
+      "from": "Old Town",
+      "to": "Tech Park",
+      "distance_km": 3.5,
+      "base_time_min": 4.62,
+      "lines": [
+        "Red"
+      ]
+    },
+    {
+      "from": "Tech Park",
+      "to": "South Terminal",
+      "distance_km": 3.5,
+      "base_time_min": 4.62,
+      "lines": [
+        "Red"
+      ]
+    },
+    {
+      "from": "Tech Park",
+      "to": "Lakeside East",
+      "distance_km": 3.0,
+      "base_time_min": 4.07,
+      "lines": [
+        "Green"
+      ]
+    },
+    {
+      "from": "Tech Park",
+      "to": "Green Hills West",
+      "distance_km": 4.5,
+      "base_time_min": 5.71,
+      "lines": [
+        "Green"
+      ]
+    },
+    {
+      "from": "West Harbor",
+      "to": "Maritime Way",
+      "distance_km": 3.0,
+      "base_time_min": 4.07,
+      "lines": [
+        "Blue"
+      ]
+    },
+    {
+      "from": "West Harbor",
+      "to": "University West",
+      "distance_km": 4.031128874149275,
+      "base_time_min": 5.2,
+      "lines": [
+        "Green"
+      ]
+    },
+    {
+      "from": "West Harbor",
+      "to": "Northwest Gateway",
+      "distance_km": 6.946221994724902,
+      "base_time_min": 8.38,
+      "lines": [
+        "Green"
+      ]
+    },
+    {
+      "from": "Maritime Way",
+      "to": "Arts District",
+      "distance_km": 3.0,
+      "base_time_min": 4.07,
+      "lines": [
+        "Blue"
+      ]
+    },
+    {
+      "from": "Commerce Blvd",
+      "to": "East University",
+      "distance_km": 3.5,
+      "base_time_min": 4.62,
+      "lines": [
+        "Blue"
+      ]
+    },
+    {
+      "from": "East University",
+      "to": "Airport East",
+      "distance_km": 3.5,
+      "base_time_min": 4.62,
+      "lines": [
+        "Blue"
+      ]
+    },
+    {
+      "from": "East University",
+      "to": "Botanical Gardens",
+      "distance_km": 4.0,
+      "base_time_min": 5.16,
+      "lines": [
+        "Green"
+      ]
+    },
+    {
+      "from": "East University",
+      "to": "South Medical Center",
+      "distance_km": 4.743416490252569,
+      "base_time_min": 5.97,
+      "lines": [
+        "Green"
+      ]
+    },
+    {
+      "from": "Airport East",
+      "to": "Olympic Stadium",
+      "distance_km": 4.924428900898052,
+      "base_time_min": 6.17,
+      "lines": [
+        "Yellow"
+      ]
+    },
+    {
+      "from": "North Innovation",
+      "to": "Botanical Gardens",
+      "distance_km": 3.5355339059327378,
+      "base_time_min": 4.66,
+      "lines": [
+        "Green"
+      ]
+    },
+    {
+      "from": "South Medical Center",
+      "to": "Lakeside East",
+      "distance_km": 3.2015621187164243,
+      "base_time_min": 4.29,
+      "lines": [
+        "Green"
+      ]
+    },
+    {
+      "from": "Green Hills West",
+      "to": "University West",
+      "distance_km": 3.905124837953327,
+      "base_time_min": 5.06,
+      "lines": [
+        "Green"
+      ]
+    }
+  ]
+}
