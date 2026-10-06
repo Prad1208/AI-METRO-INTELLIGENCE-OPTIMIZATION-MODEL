@@ -30,7 +30,7 @@ A state-of-the-art **Pure AI & Machine Learning** transit network platform engin
 ## 🏗️ Project Architecture
 
 ```plaintext
-metro-intelligence-ai/
+AI-METRO-INTELLIGENCE-OPTIMIZATION-MODEL/
 ├── config.py                 # Centralized configuration (physics constants, ML hyperparameters)
 ├── requirements.txt          # Python dependencies
 ├── README.md                 # Project documentation
@@ -58,10 +58,17 @@ metro-intelligence-ai/
 
 ## 🚀 Quickstart Guide
 
-### 1. Set Up Environment & Install Dependencies
+### 1. Clone the Repository & Install Dependencies
 
 ```bash
-cd C:\Users\ASUS\.gemini\antigravity\scratch\metro-intelligence-ai
+git clone https://github.com/Prad1208/AI-METRO-INTELLIGENCE-OPTIMIZATION-MODEL.git
+cd AI-METRO-INTELLIGENCE-OPTIMIZATION-MODEL
+
+# Create virtual environment (optional but recommended)
+python -m venv venv
+# On Windows: .\venv\Scripts\activate
+# On Linux/macOS: source venv/bin/activate
+
 pip install -r requirements.txt
 ```
 
@@ -76,7 +83,7 @@ python train_all.py
 ### 3. Launch the Interactive Digital Twin Dashboard
 
 ```bash
-streamlit run app/dashboard.py
+python -m streamlit run app/dashboard.py
 ```
 - Open your browser at `http://localhost:8501`.
 - Explore live moving trains, test the route planner, inject real-time disruptions (stadium matches, rush hour peaks), and visualize energy trajectory curves.
